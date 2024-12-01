@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'cyber';
+}
+@font-face {
+    font-family: 'cyber';
+    src: url(fontes/CyberpunkWaifus\ \(1\).ttf);
+}
+
+.imgB{
+    height: 25px;
+    opacity: 0;
+}
+.imgB:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.imgC{
+    width: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.imgC:hover{
+    transform: rotate(180deg);
+    transition: transform 0.5s ease-in-out;
+}
+body{
+    background-image: url("imagens/bg.jpg!d");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    list-style: none;
+    display: flex;
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.2);
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: solid 1px #FCABFC;
+    border-radius: 5px;
+
+
+}
+.container{
+ background-image: linear-gradient(to bottom, #2402418e, #8412AC, transparent);
+    width: 510px;
+    border-radius: 10px;
+    padding: 20px;
+
+    border: solid 1px #FCABFC;
+    margin-bottom: 30px;
+    
+}
+.input-task{
+    border: none;
+    border-radius: 5px;
+    width: 270px;
+    height: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.input-task:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.button-add-task{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #2B024C;
+    color: white;
+    font-size: 17px;
+    padding: 0px 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.button-add-task:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+.button-add-task:active{
+    opacity: 0.5;
+}
+.list-task{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.task:hover .imgB{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  
+}
+.task:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.teste{
+    background-color: #31025237;
+    text-decoration: line-through;
+}
