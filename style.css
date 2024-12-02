@@ -60,7 +60,8 @@ body{
     padding: 20px;
 
     border: solid 1px #FCABFC;
-    margin-bottom: 30px;
+    flex-wrap: nowrap;
+margin-bottom: 30px;
     
 }
 .input-task{
@@ -70,12 +71,10 @@ body{
     height: 40px;
     padding-left: 10px;
     cursor: pointer;
+  
 
 }
-.input-task:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
+
 .button-add-task{
     border: none;
     border-radius: 5px;
@@ -83,9 +82,11 @@ body{
     background-color: #2B024C;
     color: white;
     font-size: 17px;
-    padding: 0px 15px;
+    margin-left: 5px;
+
     float: right;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .button-add-task:hover{
@@ -107,10 +108,7 @@ body{
     transition: opacity 0.5s ease-in-out;
   
 }
-.task:hover{
-    transform: scale(1.1);
-    transition: 1s ease-in-out;
-}
+
 .teste{
     background-color: #31025237;
     text-decoration: line-through;
